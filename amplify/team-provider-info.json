@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-uekiyumapp-dev-141839-authRole",
+      "UnauthRoleArn": "arn:aws:iam::561643958265:role/amplify-uekiyumapp-dev-141839-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::561643958265:role/amplify-uekiyumapp-dev-141839-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-uekiyumapp-dev-141839-deployment",
+      "UnauthRoleName": "amplify-uekiyumapp-dev-141839-unauthRole",
+      "StackName": "amplify-uekiyumapp-dev-141839",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:561643958265:stack/amplify-uekiyumapp-dev-141839/83d6e220-462b-11ee-af3d-0e3a8510ebc9",
+      "AmplifyAppId": "d3kdbl9pl8d36b"
+    },
+    "categories": {
+      "api": {
+        "uekiyumapp": {}
+      }
+    }
+  }
+}
