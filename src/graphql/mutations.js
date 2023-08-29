@@ -9,6 +9,7 @@ export const createTodo = GraphQL
     createTodo(input: $input, condition: $condition) {
       id
       name
+      number
       description
       createdAt
       updatedAt
