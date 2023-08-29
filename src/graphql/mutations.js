@@ -1,23 +1,15 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createTodo = /* GraphQL */ `
-  mutation CreateTodo(
-    $input: CreateTodoInput!
-    $condition: ModelTodoConditionInput
-  ) {
-    createTodo(input: $input, condition: $condition) {
-      id
-      name
-      description
-      createdAt
-      updatedAt
-      __typename
-    }
+export const createTodo = `mutation CreateTodo($input: TodoInput!) {
+  createTodo(input: $input) {
+    title
+    content
   }
+}
 `;
-export const updateTodo = /* GraphQL */ `
-  mutation UpdateTodo(
+//export const updateTodo = /* GraphQL */ `
+/*  mutation UpdateTodo(
     $input: UpdateTodoInput!
     $condition: ModelTodoConditionInput
   ) {
@@ -31,8 +23,11 @@ export const updateTodo = /* GraphQL */ `
     }
   }
 `;
-export const deleteTodo = /* GraphQL */ `
-  mutation DeleteTodo(
+
+
+//export const deleteTodo = /* GraphQL */ /*    `
+  
+mutation DeleteTodo(
     $input: DeleteTodoInput!
     $condition: ModelTodoConditionInput
   ) {
@@ -45,4 +40,4 @@ export const deleteTodo = /* GraphQL */ `
       __typename
     }
   }
-`;
+`; */
