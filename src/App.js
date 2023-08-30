@@ -13,8 +13,8 @@ function App() {
     <input type="text" id="content" value="bar" />
 
     Create button
-    <button id="create">Create</button>
-    
+    <button  /* id="create" */  >Create</button>
+
   </div>
 
   
