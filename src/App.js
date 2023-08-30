@@ -6,8 +6,6 @@ import './App.css';
 function App() {
   return (
 
-    <React.Fragment>
-
 <div>データ作成
     <label for="title">タイトル</label>
     <input type="text" id="title" value="foo" />
@@ -15,10 +13,8 @@ function App() {
     <input type="text" id="content" value="bar" />
   </div>
 
-  <div>Create button
-    <button id="create">Create</button>
-  </div>
-</React.Fragment>
+  
+
 
 
   );
