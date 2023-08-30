@@ -11,6 +11,10 @@ function App() {
     <input type="text" id="title" value="foo" />
     <label for="content">内容</label>
     <input type="text" id="content" value="bar" />
+
+    Create button
+    <button id="create">Create</button>
+    
   </div>
 
   
