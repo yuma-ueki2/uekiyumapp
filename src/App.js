@@ -6,15 +6,19 @@ import './App.css';
 function App() {
   return (
 
-<div>ƒf[ƒ^ì¬
-    <label for="title">ƒ^ƒCƒgƒ‹</label>
+    <React.Fragment>
+
+<div>ãƒ‡ãƒ¼ã‚¿ä½œæˆ
+    <label for="title">ã‚¿ã‚¤ãƒˆãƒ«</label>
     <input type="text" id="title" value="foo" />
-    <label for="content">“à—e</label>
+    <label for="content">å†…å®¹</label>
     <input type="text" id="content" value="bar" />
   </div>
 
-
-
+  <div>Create button
+    <button id="create">Create</button>
+  </div>
+</React.Fragment>
 
 
   );
