@@ -6,24 +6,13 @@ import './App.css';
 function App() {
   return (
 
+<div>データ作成
+    <label for="title">タイトル</label>
+    <input type="text" id="title" value="foo" />
+    <label for="content">内容</label>
+    <input type="text" id="content" value="bar" />
+  </div>
 
-
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
 
 
 
